@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mix Minds - Connect Across Differences</title>
+    <link rel="stylesheet" href="./css/v1.css">
+</head>
+<body>
+<!-- Header -->
+<header>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <a href="#hero">
+                    <img src="img/logo.png" alt="logo" class="logo-1">
+                </a>
+            </div>
+
+            <!-- Menu principal -->
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#testimonials">Reviews</a>
+            </div>
+
+            <!-- Bouton Télécharger -->
+            <a href="https://www.figma.com/proto/tB0w6W0R8RmXNWbozJe4LI/Mix-Mind?node-id=87-312&p=f&t=DSZxR3XdoVxtUCrP-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=87%3A184&show-proto-sidebar=1" class="btn">Download App</a>
+
+            <!-- Bouton hamburger pour mobile -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Connect Across Differences</h1>
+            <p>Mix Minds brings together people from diverse backgrounds, ethnicities, and religions to share experiences and perspectives in a respectful, enriching environment.</p>
+        </div>
+        <div class="hero-image">
+            <!-- 3D Scene will be here -->
+            <div id="3d-container">
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features" id="features">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Why Mix Minds?</h2>
+            <p>Our innovative platform is designed to foster meaningful connections and broaden perspectives.</p>
+        </div>
+
+        <div class="features-layout">
+            <!-- Colonne de gauche -->
+            <div class="features-left">
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Global Community</h3>
+                    <p>Connect with people from around the world, spanning different cultures, backgrounds, and life experiences.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>Meaningful Discussions</h3>
+                    <p>Engage in thought-provoking conversations that challenge assumptions and expand your worldview.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Topic-Focused Rooms</h3>
+                    <p>Join discussions based on your interests, from culture and religion to politics and philosophy.</p>
+                </div>
+            </div>
+
+            <!-- Image du téléphone au centre -->
+            <div class="features-center">
+                <img src="./img/survey1.png" alt="Mix Minds App" class="phone-image">
+            </div>
+
+            <!-- Colonne de droite -->
+            <div class="features-right">
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Safe Environment</h3>
+                    <p>Our moderation tools ensure respectful dialogue, making it a safe space for all perspectives.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Learning Opportunity</h3>
+                    <p>Gain firsthand insights into different cultures, religions, and worldviews through personal stories.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Bridge Building</h3>
+                    <p>Find common ground with people you might never meet in your everyday life.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="screenshots" id="screenshots">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Mix Minds in Action</h2>
+            <p>See what our app looks like in use.</p>
+        </div>
+
+        <!-- Slideshow Container -->
+        <div class="slideshow-wrapper">
+            <button class="slide-btn left-btn" onclick="scrollLeft()">&#10094;</button>
+
+            <div class="slideshow" id="slideshow">
+                <div class="slide"><img src="img/Capture%20d'écran%202025-03-12%20145956.png" alt="Mix Minds Screenshot 1"></div>
+                <div class="slide"><img src="img/MainPage.png" alt="Mix Minds Screenshot 2"></div>
+                <div class="slide"><img src="img/groups.png" alt="Mix Minds Screenshot 3"></div>
+                <div class="slide"><img src="img/dogs.png" alt="Mix Minds Screenshot 4"></div>
+                <div class="slide"><img src="img/msg2.png" alt="Mix Minds Screenshot 5"></div>
+                <div class="slide"><img src="img/points.png" alt="Mix Minds Screenshot 6"></div>
+            </div>
+
+            <button class="slide-btn right-btn" onclick="scrollRight()">&#10095;</button>
+        </div>
+    </div>
+</section>
+
+
+        <!-- How It Works Section -->
+<section class="how-it-works" id="how-it-works">
+    <div class="container">
+        <div class="section-heading">
+            <h2>How Mix Minds Works</h2>
+            <p>Join our community in just a few simple steps</p>
+        </div>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Download</h3>
+                <p>Get the Mix Minds app from your preferred app store</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Create Profile</h3>
+                <p>Share about your background and interests</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Find people</h3>
+                <p>Find people with different experiences</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Connect</h3>
+                <p>Engage with diverse perspectives and share yours</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <div class="section-heading">
+            <h2>What Our Users Say</h2>
+            <p>Join thousands of people already expanding their horizons with Mix Minds</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial">
+                <p class="testimonial-text">"Mix Minds has completely changed how I see the world. I've made friends from cultures I knew nothing about and learned so much."</p>
+                <div class="testimonial-author">
+                    <div class="author-image">S</div>
+                    <div class="author-info">
+                        <h4>Sarah</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p class="testimonial-text">"Just came for the free coffee"</p>
+                <div class="testimonial-author">
+                    <div class="author-image">M</div>
+                    <div class="author-info">
+                        <h4>Max</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p class="testimonial-text">"I love that Mix Minds doesn't shy away from difficult topics. The moderation is excellent, and I've had some of the most meaningful conversations of my life here."</p>
+                <div class="testimonial-author">
+                    <div class="author-image">M</div>
+                    <div class="author-info">
+                        <h4>Maria</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta">
+    <div class="container">
+        <h2>Ready to Broaden Your Perspective?</h2>
+        <p>Join thousands of users already connecting across cultural, religious, and ethnic differences on Mix Minds.</p>
+        <a href="https://www.figma.com/proto/tB0w6W0R8RmXNWbozJe4LI/Mix-Mind?node-id=87-312&p=f&t=DSZxR3XdoVxtUCrP-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=87%3A184&show-proto-sidebar=1" class="btn">Download App</a>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Mix Minds. All rights reserved.</p>
+    </div>
+    </div>
+</footer>
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://threejs.org/build/three.js"></script>
+    <script defer src="./js/v1.js"></script>
+</html>
