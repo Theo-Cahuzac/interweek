@@ -1,4 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
+    let slideshow = document.getElementById("slideshow");
+
+    document.querySelector(".left-btn").addEventListener("click", function () {
+        slideshow.scrollBy({ left: -380, behavior: "smooth" });
+    });
+
+    document.querySelector(".right-btn").addEventListener("click", function () {
+        slideshow.scrollBy({ left: 380, behavior: "smooth" });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
     const container = document.getElementById('3d-container');
     if (!container) {
         console.error("3d-container not found!");
